@@ -28,7 +28,8 @@ from nltk.tag import pos_tag
 from gensim.models import Word2Vec
 import matplotlib.pyplot as plt
 
-Path='C:/Users/vasudeva.maiya/Downloads/Dov/ESG/WM'
+#Path='C:/Users/vasudeva.maiya/Downloads/Dov/ESG/WM'
+Path='G:/My Drive/Git/NLP_Expts/Data'
 os.chdir(Path)
 stop = (stopwords.words('english'))
 #extend the stopwords set - its just a list
